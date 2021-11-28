@@ -2,13 +2,16 @@
 <androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".MainActivity4">
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:addStatesFromChildren="false"
+    android:textAlignment="center"
+    tools:context=".MainActivity3">
 
     <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:orientation="vertical">
 
         <FrameLayout
@@ -22,36 +25,53 @@
                 <TextView
                     android:id="@+id/textView"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="40dp"
                     android:background="@color/teal_200"
-                    android:text="                                                 Sucursales" />
+                    android:fontFamily="@font/chelsea_market"
+                    android:text="Sucursales"
+                    android:textAlignment="center"
+                    android:textColor="#D81B60"
+                    android:textSize="20sp" />
+                android:
             </LinearLayout>
         </FrameLayout>
 
         <FrameLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_width="wrap_content"
+            android:layout_height="442dp">
 
             <TableLayout
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="match_parent">
 
                 <TableRow
                     android:id="@+id/tabla1"
-                    android:layout_width="match_parent"
+                    android:layout_width="310dp"
                     android:layout_height="match_parent">
 
                     <ImageView
                         android:id="@+id/imagen1"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        tools:srcCompat="@tools:sample/avatars" />
+                        android:layout_width="114dp"
+                        android:layout_height="match_parent"
+                        android:adjustViewBounds="true"
+                        tools:srcCompat="@drawable/sucursal2" />
 
                     <TextView
                         android:id="@+id/texto2"
-                        android:layout_width="282dp"
+                        android:layout_width="244dp"
                         android:layout_height="match_parent"
-                        android:text="TextView" />
+                        android:bufferType="normal"
+                        android:capitalize="none"
+                        android:clickable="false"
+                        android:elegantTextHeight="false"
+                        android:fontFamily="monospace"
+                        android:text="Dirección: Cra. 6 #6-2 a 6-70, Castilla La Nueva, Meta Horas:  Cerrado ⋅ Abre a las 9:00 del sáb Teléfono: 313 2012687"
+                        android:textAllCaps="false"
+                        android:textColor="#F48FB1"
+                        android:textColorHighlight="#81D4FA"
+                        android:textDirection="firstStrong"
+                        android:typeface="sans"
+                        app:autoSizeTextType="none" />
 
                 </TableRow>
 
@@ -61,32 +81,40 @@
 
                     <ImageView
                         android:id="@+id/imagen2"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        tools:srcCompat="@tools:sample/avatars" />
+                        android:layout_width="127dp"
+                        android:layout_height="match_parent"
+                        android:adjustViewBounds="true"
+                        tools:srcCompat="@drawable/sucursal3" />
 
                     <TextView
                         android:id="@+id/textView9"
-                        android:layout_width="match_parent"
+                        android:layout_width="284dp"
                         android:layout_height="match_parent"
-                        android:text="TextView" />
+                        android:autoText="false"
+                        android:capitalize="sentences"
+                        android:text="Ubicado en: Viva centro comercial Dirección: Calle 7 45-185 Centro Comercial Viva, Local 122A, Villavicencio, Meta Horas:  Cerrado ⋅ Abre a las 9:00 del sáb Salud y seguridad: Se requiere el uso de mascarilla · El personal usa mascarillas · El personal se somete a revisiones de temperatura · Desinfección de superficies obligatoria por parte del personal después de cada visita · Más detalles Teléfono: (8) 6836191"
+                        android:textAlignment="textStart"
+                        android:textColor="#81C784" />
                 </TableRow>
 
                 <TableRow
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent">
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
 
                     <ImageView
                         android:id="@+id/imagen3"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        tools:srcCompat="@tools:sample/avatars" />
+                        android:layout_width="56dp"
+                        android:layout_height="119dp"
+                        android:adjustViewBounds="true"
+                        tools:srcCompat="@drawable/sucursal4" />
 
                     <TextView
                         android:id="@+id/textView10"
-                        android:layout_width="match_parent"
+                        android:layout_width="271dp"
                         android:layout_height="match_parent"
-                        android:text="TextView" />
+                        android:text="Dirección: Cl. 6 ##8-51, Castilla La Nueva, Meta Horas:  Cerrado ⋅ Abre a las 9:00 del sáb Teléfono: 316 8112372"
+                        android:textColor="#3F51B5" />
                 </TableRow>
 
                 <TableRow

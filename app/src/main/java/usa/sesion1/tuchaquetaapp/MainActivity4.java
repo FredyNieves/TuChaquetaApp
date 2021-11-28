@@ -20,7 +20,7 @@ public class MainActivity4 extends AppCompatActivity {
         //--------------------------------------------------------
 
         Resources res1 = getResources();
-        drawable1 = res1.getDrawable(R.drawable.s1, getTheme());
+        drawable1 = res1.getDrawable(R.drawable.sucursal2, getTheme());
 
         imagen1 = (ImageView) findViewById(R.id.imagen1);
         imagen1.setImageDrawable(drawable1);
@@ -28,7 +28,7 @@ public class MainActivity4 extends AppCompatActivity {
         //--------------------------------------------------------
 
         Resources res2 = getResources();
-        drawable2 = res2.getDrawable(R.drawable.s2, getTheme());
+        drawable2 = res2.getDrawable(R.drawable.sucursal3, getTheme());
 
         imagen2= (ImageView) findViewById(R.id.imagen2);
         imagen2.setImageDrawable(drawable2);
@@ -36,7 +36,7 @@ public class MainActivity4 extends AppCompatActivity {
         //--------------------------------------------------------
 
         Resources res3 = getResources();
-        drawable3 = res3.getDrawable(R.drawable.s3, getTheme());
+        drawable3 = res3.getDrawable(R.drawable.sucursal4, getTheme());
 
         imagen3= (ImageView) findViewById(R.id.imagen3);
         imagen3.setImageDrawable(drawable3);
